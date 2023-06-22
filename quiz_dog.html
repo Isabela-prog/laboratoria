@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
   <body>
-    <!--mostrar o timer-->
+    <!--Adicionar timer na tela-->
     <div id="timer"></div>
+    <!--início do quiz-->
     <h1>Quiz - você conhece seu cãozinho?</h1>
     <div id="quiz">
-      <!--ínicio do quiz-->
       <text>Qual o melhor momento para realizar a castração do macho?</text><br /><br />
       <input type="radio" id="dog_true1" name="dog1" value="resposta_1.1" />
-      <!--label possibilita as resposta do quiz-->
+      <!--Label torna possível a resposta-->
       <label>A partir dos 6 meses</label><br />
       <input
         type="radio"
@@ -27,7 +27,7 @@
       <input type="radio" id="dog_false1.2" name="dog1" value="resposta_2.3" />
       <label>Nenhuma das anteriores</label>
       <p></p>
-      <!--envia a resposta para as funções de cada pergunta-->
+      <!--enviar a resposta para cada função-->
       <button id="enviar_resposta" onclick="funcao5()" value="Exibir_resposta1">
         Enviar resposta
       </button>
@@ -42,9 +42,9 @@
         id="dog_true2"
         value="resposta_2.2"
       />
-      <label>Raiva e múltipla (V6, V8 ou V10) </label><br />
+      <label>Antirrábica e múltipla (V6, V8 ou V10) </label><br />
       <input type="radio" name="dog2" id="dog_false2.2" value="resposta_2.3" />
-      <label>Raiva, múltipla (V6, V8 ou V10), gripe e giardia</label><br />
+      <label>Antirrábica, múltipla (V6, V8 ou V10), gripe e giardia</label><br />
       <p></p>
       <button id="enviar_resposta" onclick="funcao6()" value="Exibir_resposta2">
         Enviar resposta
@@ -86,7 +86,7 @@
       ><br /><br>
     </div>
       <div>
-        <!--botão de voltar para a página incial-->
+        <!--Botão de voltar para tela inicial-->
         <a href="index.html">
           <button>
             Voltar

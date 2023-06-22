@@ -1,24 +1,24 @@
 // Funções Quiz cat
 
-//função da primeira questão
+//Função do quiz
 function funcao1() {
-  //variável que pega a primeira resposta através do seu id
+  //DOM pega as respostas pelo id
   let resposta_true1 = document.getElementById('resp_true1');
   let resp_false1 = document.getElementById('resp_false1');
   let resp_false12 = document.getElementById('resp_false1.2');
 
-  //condições que mostram os alerts com a resposta correta e explicação
+  //condições para cada resposta com seu devido alert
   if (resposta_true1.checked) {
     alert(
-      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, o que diminui as chances de desenvolver algum tipo de obstrução das vias urinárias. No entando, não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
+      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, diminuindo as chances de desenvolver obstrução das vias urinárias. Mas não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
     );
   } else if (resp_false1.checked) {
     alert(
-      'ERROU! Antes dos 6 meses os testículos do macho ainda não estão presentes na bolsa escrotal, caso passe deste período e o gatinho não apresente os dois testículos ele pode desenvolver algum problema.'
+      'ERROU! Os testículos do macho ainda não estarão presentes na bolsa escrotal, caso passe deste período e o gatinho não apresente os dois testículos ele pode estar desenvolvendo algum problema.'
     );
   } else if (resp_false12.checked) {
     alert(
-      'ERROU! Antes de 1 ano o gatinho ainda não atingiu a maturidade, caso seja castrado muito novinho ele pode apresentar problemas no trato urinário, como Doença do Trato Urinário.'
+      'ERROU! Caso seja castrado muito novinho ele pode apresentar problemas no trato urinário.'
     );
   } else {
     alert('Por favor, selecione uma resposta');
@@ -58,11 +58,11 @@ function funcao3() {
     );
   } else if (resp_false3.checked) {
     alert(
-      'ERROU! Apesar de parecer uma frequenta alta, os cio das gatas é irregular e pode apresentar mais de um no mês.'
+      'ERROU! Apesar de parecer uma frequência alta, o cio das gatas é irregular e pode apresentar mais de um no mês.'
     );
   } else if (resp_false32.checked) {
     alert(
-      'ERROU! O cio da gata é irregular, não possui uma frequencia fixa, sendo mais frequente nos dias quentes.'
+      'ERROU! O cio da gata é irregular, não possui uma frequência fixa, sendo mais frequente nos dias quentes.'
     );
   } else {
     alert('Por favor, selecione uma resposta');
@@ -76,13 +76,13 @@ function funcao4() {
 
   if (resposta_true4.checked) {
     alert(
-      'ACERTOU! Gatos não bebem tanta água como deveriam, o sache auxilia muito na ingestão hídrica, logo não há nenhum problema em oferecer todos os dias.'
+      'ACERTOU! Gatos não bebem tanta água como deveriam, o sachê auxilia muito na ingestão hídrica, logo não há nenhum problema em oferecer todos os dias.'
     );
   } else if (resp_false4.checked) {
-    alert('ERROU! O sache auxilia muito na ingestão hídrica dos gatos.');
+    alert('ERROU! O sachê auxilia muito na ingestão hídrica dos gatos.');
   } else if (resp_false42.checked) {
     alert(
-      'ERROU! O sache, por ser um alimento úmido, auxilia muito na ingestão hídrica e o ideal seria que gatos comessem somente alimentação úmida.'
+      'ERROU! O sachê, por ser um alimento úmido, auxilia muito na ingestão hídrica e o ideal seria que gatos comessem somente alimentação úmida.'
     );
   } else {
     alert('Por favor, selecione uma resposta');
@@ -98,12 +98,14 @@ function funcao5() {
 
   if (resposta_true1.checked) {
     alert(
-      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, o que diminui as chances de desenvolver algum tipo de obstrução das vias urinárias. No entando, não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
+      'ACERTOU! Nessa idade o macho já apresenta os dois testículos e está apto para castração, do contrário ele pode estar desenvolvendo algum problema.'
     );
   } else if (resp_false1.checked) {
-    alert('Errou! bla bla bla');
+    alert(
+      'ERROU! Machos também devem ser castrados para evitar doenças futuramente, principalmente tumores de próstata.'
+    );
   } else if (resp_false12.checked) {
-    alert('Errou! bla bla bla 2');
+    alert('ERROU! Tente de novo!');
   } else {
     alert('Por favor, selecione uma resposta');
   }
@@ -116,12 +118,16 @@ function funcao6() {
 
   if (resposta_true2.checked) {
     alert(
-      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, o que diminui as chances de desenvolver algum tipo de obstrução das vias urinárias. No entando, não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
+      'ACERTOU! A  antirrábica é obrigatória para a prevenção da raiva e a múltipla para cinomose, parvovirose, coronavírus canino e leptospirose.'
     );
   } else if (resp_false2.checked) {
-    alert('Errou! bla bla bla');
+    alert(
+      'ERROU! Todo cãozinho deve receber as vacinações iniciais e o reforço anual.'
+    );
   } else if (resp_false22.checked) {
-    alert('Errou! bla bla bla 2');
+    alert(
+      'ERROU! Apesar da antirrábica e múltipla serem obrigatórias, as vacinas da gripe e giárdia são consideradas dispensáveis do protocolo vacinal.'
+    );
   } else {
     alert('Por favor, selecione uma resposta');
   }
@@ -134,12 +140,16 @@ function funcao7() {
 
   if (resposta_true3.checked) {
     alert(
-      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, o que diminui as chances de desenvolver algum tipo de obstrução das vias urinárias. No entando, não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
+      'ACERTOU! O cão está liberado para convívio após a aplicação de 3 doses da vacina múltipla, com intervalo de 21 dias cada uma.'
     );
   } else if (resp_false3.checked) {
-    alert('Errou! bla bla bla');
+    alert(
+      'ERROU! Mesmo estando com uma dose da vacina, o cão ainda não está totalmente imunizado.'
+    );
   } else if (resp_false32.checked) {
-    alert('Errou! bla bla bla 2');
+    alert(
+      'ERROU! Se o filhote completar 3 meses mas não está vacinado, não é recomendado leva-lo para passeios pois ele estará em risco de contrair alguma doença.'
+    );
   } else {
     alert('Por favor, selecione uma resposta');
   }
@@ -152,12 +162,14 @@ function funcao8() {
 
   if (resposta_true4.checked) {
     alert(
-      'ACERTOU! A partir de um ano, o gato já atingiu sua maturidade, o que diminui as chances de desenvolver algum tipo de obstrução das vias urinárias. No entando, não esqueça de manter o seu gatinho preso em casa até o período ideal da castração, isso evita brigas, doenças e filhinhos sem pai! ;-) '
+      'ACERTOU! O certo é administrar o vermífugo pelo menos a cada 6 meses, também podem ser a cada 3 meses.'
     );
   } else if (resp_false4.checked) {
-    alert('Errou! bla bla bla');
+    alert(
+      'ERROU! Cães estão constantemente expostos a contatos com vermes, por isso é recomendando sempre utilizar vermífugos para tratamento e prevenção'
+    );
   } else if (resp_false42.checked) {
-    alert('Errou! bla bla bla 2');
+    alert('ERROU! Tente de novo!');
   } else {
     alert('Por favor, selecione uma resposta');
   }
@@ -165,13 +177,10 @@ function funcao8() {
 
 // Função do index
 
-//função para a página inicial que leva para os quiz específico
 function funcao_escolha() {
-  //variável que pega as respostas pelo id
   let escolha_dog = document.getElementById('dog');
   let escolha_cat = document.getElementById('cat');
 
-  //condições para levar para a pag do quiz escolhido
   if (escolha_dog.checked) {
     window.location.href = 'quiz_dog.html';
   } else if (escolha_cat.checked) {
@@ -188,7 +197,7 @@ function startTimer(duracao, display) {
     segundos;
 
   setInterval(function () {
-    //montar os minutos e segundos
+    //criar os minutos e segundos
     minutos = parseInt(timer / 60, 10);
     segundos = parseInt(timer % 60, 10);
     //Adicionar um 0 na frente dos minutos e segundos para que ele tenha duas casas sempre que for menor do que 10
@@ -198,7 +207,7 @@ function startTimer(duracao, display) {
     if (--timer < 0) {
       timer = duracao;
     }
-    //Após o timer zerar, volta pra página inicial
+    //voltar para a pag incial assim que terminar o tempo
     if (timer === 0) {
       window.location.href = 'index.html';
     }

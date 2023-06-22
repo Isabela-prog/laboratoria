@@ -10,14 +10,14 @@ Passo a passo do projeto:
 2- Pop-up de boas-vindas
 3- Estilizar o quiz
 4- Fazer o quiz 2
-5- Quiz esolher um dos pets
+5- Quiz escolher um dos pets
 6- Colocar contagem regressiva e pontuação (se der tempo)
 
 Página da Saudação:
 
 - Pop-up perguntado o nome
-- Alert boas-vindas (e escolher o tema)
-- Escolha do quiz
+- Alert boas-vindas
+- Escolha do tema/quiz
 
 Perguntas do quiz (gato):
 
@@ -63,3 +63,18 @@ Perguntas do quiz (cachorro):
 ºUma vez por ano
 ºNão é necessário
 
+Estilização do quiz:
+
+- Ajuste de cores e fonte
+- Ajuste da margem dos textos
+- Adição do plano de fundo
+
+Timer
+
+- Adição do timer e tempo máximo de 2 minutos
+- Voltar ao início quando timer zerado
+
+Finalização
+
+- Ajuste das respostas das duas trívias (cão e gato)
+- Ajuste
